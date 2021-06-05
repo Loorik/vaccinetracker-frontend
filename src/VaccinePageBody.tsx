@@ -42,32 +42,3 @@ export const  VaccinePageBody = () => {
     
     );
 }
-
-
-/*
-  {!allStatesVisible && (<LoadingIndicator type="spin"/>)}
-         {allStatesVisible &&(
-             allStates?.states.map((state) => {
-                 return <p>
-                     {state.siteNameAndVaccine}
-                     :
-                     {state.isAvailable}
-                 </p>
-             })
-         )}
-         <p>{allStates?.states[0].siteNameAndVaccine}</p>
-         */
-
-
-/*
-
-() => {
-                let rows : JSX.Element[] = [];
-                let page = "terminland";
-                for(const vaccine in Object.keys(Vaccine)){
-                    rows.push(<VaccineRow site={page} vaccine={vaccine}/>)
-                } 
-                rows.push(<VaccineRow site={"impfzentrum"}/>);    
-                return rows;
-           }
-*/

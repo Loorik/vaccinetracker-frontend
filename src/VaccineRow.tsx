@@ -70,5 +70,3 @@ export const VaccineRow = ({site, vaccine}: VaccineRowProps ) => {
         </div>
     );
 }
-
-// <p style={{marginRight: "2em"}}>{String(vacState?.isAvailable)}</p>
