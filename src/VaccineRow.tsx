@@ -24,9 +24,9 @@ export const VaccineRow = ({site, vaccine}: VaccineRowProps ) => {
     const fetchRoute = async () => {
         let routeToFetch;
         if(fetchVaccines)
-            routeToFetch = `http://127.0.0.1:8080/state/${site}/${vaccine}`;
+            routeToFetch = `http://192.168.178.64:8080/state/${site}/${vaccine}`;
         else
-            routeToFetch = `http://127.0.0.1:8080/state/${site}`;
+            routeToFetch = `http://192.168.178.64:8080/state/${site}`;
         setVacStateVisible(false);
         const dataRequest = await fetch(routeToFetch, {
                 method: 'GET',
