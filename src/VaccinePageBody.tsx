@@ -3,7 +3,7 @@ import { VaccineRow } from './VaccineRow';
 
 
 export const LoadingIndicator = ({type, color} : any) => (
-    <ReactLoading type={type} color= {color} height={250} width={150} />
+    <ReactLoading type={type} color= {color} height={150} width={75} />
 );
 
 export type SingleState = {
